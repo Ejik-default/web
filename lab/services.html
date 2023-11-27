@@ -1,0 +1,2634 @@
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Діалог - гістологічна лабораторія</title>
+    <link rel="icon" type="image/x-icon" href="./img/mainIcon.svg">
+    <meta name="keywords"
+        content="Histolab-Dialog, Histolab, Dialog, Histo dialog, Histodialog, Histo-dialog, Лаба Діалог, Лаба гісто діалог, Лаба гісто, Гістологічна лабораторія, Гістологічна лабораторія Діалог, Діалог, Діалог лабораторія, Діалог гістологія, Гістологічні дослідження, Гістологія лабораторія, Гістологія Діалог, Гістологічні дослідження, Гістологічні дослідження лабораторія, Гістологічні дослідження лабораторія Діалог, Патогістологічна лабораторія, Патогістологічна лабораторія Діалог, Діалог, Діалог лабораторія, Діалог патогістологія, Діалог пато гістологія, Патогістологічні дослідження, Патогістологія лабораторія, Патогістологія Діалог, Патогістологічні дослідження, Патогістологічні дослідження лабораторія, Патогістологічні дослідження лабораторія Діалог">
+    <meta name="description"
+        content="Ласкаво просимо на сторінку Гістолаб-Діалог, провідної гістологічної лабораторії. Ми надаємо широкий спектр послуг у галузі гістологічних досліджень та патогістології. Наша команда досвідчених фахівців забезпечує високоякісні аналізи проб, що допомагають у точній діагностиці та лікуванні різних захворювань. Звертайтесь до нас для отримання професійних консультацій та результатів досліджень.">
+    <link rel="stylesheet" href="./css/reset.css">
+    <script src="https://kit.fontawesome.com/d003f22ee1.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;600;700;800&amp;display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+    <!-- Site header -->
+    <header class="header">
+        <div class="navigation-stuff">
+            <div class="left">
+                <img src="./img/logoMain.svg" class="logo_img">
+                <div class="date-and-number" id="location">
+                    <span class="date">Пн-Пт: 10:00-19:00</span>
+                    <br>
+                    <span>+38(096) 899 63 69</span>
+                </div>
+            </div>
+            <div class="right">
+                <div class="date-and-number">
+                    <span>Київ, Констянтинівська 73</span>
+                    <br>
+                    <span id="min-text">(вхід з вул. Кирилівська 46)</span>
+                </div>
+                <a id="facebook"><i class="fa-brands fa-telegram"></i></a>
+                <a id="linkedin"><i class="fa-brands fa-viber"></i></a>
+                <a href="tel:+380968996369" id="linkedin"><i class="fa-solid fa-phone"></i></a>
+            </div>
+        </div>
+    </header>
+    <!-- Site header -->
+    <!-- Site navigation -->
+    <nav class="nav">
+        <div class="under-navigation">
+            <div class="dropdown" data-dropdown="">
+                <a href="contacts.html"><button class="link last" id="info-bar"
+                        data-dropdown-button="">КОНТАКТИ</button></a>
+            </div>
+            <div class="dropdown" data-dropdown="">
+                <a href="doctors.html"><button class="link" id="info-bar" data-dropdown-button="">ЛІКАРІ</button></a>
+            </div>
+            <div class="dropdown" data-dropdown="">
+                <a href="services.html"><button class="link" id="info-bar" data-dropdown-button="">НАШІ
+                        ПОСЛУГИ</button></a>
+            </div>
+            <div class="dropdown" data-dropdown="">
+                <a href="corp_client.html"><button class="link too-big-btn" id="info-bar"
+                        data-dropdown-button="">КОРПОРАТИВНИМ КЛІЄНТАМ</button></a>
+            </div>
+            <div class="dropdown" id="dropdown" data-dropdown="">
+                <a>
+                    <button class="link" id="info-bar" data-dropdown-button="">ПРО НАС <i class="fa-solid"></i>
+                    </button>
+                </a>
+                <div class="dropdown-content" id="dropdown-content" onmouseover="dropdown_color_changer_mouse_over()"
+                    onmouseout="dropdown_color_changer_mouse_out()">
+                    <div class="dropdown-content-link">
+                        <a href="news.html">Новини</a>
+                    </div>
+                    <div class="dropdown-content-link dropdown-content-link-last">
+                        <a href="agreement.html">Публічний договір</a>
+                    </div>
+                </div>
+            </div>
+            <div class="dropdown" data-dropdown="">
+                <a href="index.html">
+                    <button class="link" id="info-bar" data-dropdown-button="">ГОЛОВНА</button>
+                </a>
+            </div>
+        </div>
+        <div class="navbar-responsive-left">
+            <a href="https://www.facebook.com/HistolabDialog">
+                <i class="fa-brands fa-facebook"></i>
+            </a>
+            <a href="https://www.instagram.com/histolabdialog/" id="instagram-under">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="tel:+380968996369">
+                <i class="fa-solid fa-phone"></i>
+            </a>
+        </div>
+        <div class="dropdown" data-dropdown="">
+            <button class="link burger-btn" id="burger-knopka">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+        <ul class="szirovaja-otkladina" id="tayler-szirden">
+            <li><a href="contacts.html">КОНТАКТИ</a></li>
+            <li><a href="corp_client.html">КОРПОРАТИВНИМ КЛІЄНТАМ</a></li>
+            <li><a href="doctors.html">ЛІКАРІ</a></li>
+            <li><a href="services.html">НАШІ ПОСЛУГИ</a></li>
+            <li id="mobile-dropdown-1">
+                <a class="mobile-dropdown">
+                    <button onclick="mobile_dropdown_function()" class="dropdown-btn" id="dropdown-btn">ПРО НАС
+                        <i class="fa-solid fa-caret-down"></i>
+                    </button>
+                </a>
+            </li>
+            <div class="mobile-dropdown-content" id="mobile-dropdown-content">
+                <li class="dropdown-link"><a href="news.html">Новини</a></li>
+                <li class="dropdown-link"><a href="agreement.html">Публічний договір</a></li>
+            </div>
+            <li><a href="index.html">ГОЛОВНА</a></li>
+        </ul>
+    </nav>
+    <!-- Site navigation -->
+    <!-- Main part of the site -->
+    <main class="analyses">
+        <div class="blur" id="blur"></div>
+        <div class="analyses">
+            <div class="blur" id="blur"></div>
+            <table>
+                <tbody>
+                    <tr class="main-table-line">
+                        <th class="input-in-main-form">
+                            <div class="finder">
+                                Вид дослідження
+                            </div>
+                        </th>
+                        <th class="time">Термін виконання <br>(повних робочих днів)</th>
+                        <th>Ціна</th>
+                        <th>Замовити послугу</th>
+                    </tr>
+
+                    <tr class="analyses title">
+                        <td class="name">
+                            <p>B - Патологія опорно-рухового апарату та м’яких тканин</p>
+                        </td>
+                        <td class="time">
+                            <p>0</p>
+                        </td>
+                        <td class="price">
+                            <p>0</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="B - Патологія опорно-рухового апарату та м’яких тканин  |  0  |  0 грн">замовити</button>
+                        </td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Видалення міжхребцевих дисків</p>
+                        </td>
+                        <td class="time">
+                            <p>5 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>850</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Видалення міжхребцевих дисків  |  5 днів  |  850 грн">замовити</button>
+                        </td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Матеріал при видаленні синовіальних оболонок (гангліони і бурси) та кіст
+                                сухожилків</p>
+                        </td>
+                        <td class="time">
+                            <p>5 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>850</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Матеріал при видаленні синовіальних оболонок (гангліони і бурси) та кіст сухожилків  |  5 днів  |  850 грн">замовити</button>
+                        </td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Резекції кістки при артропатіях (декальцинація)</p>
+                        </td>
+                        <td class="time">
+                            <p>14 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>850</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Резекції кістки при артропатіях (декальцинація)  |  14 днів  |  850 грн">замовити</button>
+                        </td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Видалення пухлин кісток та суглобів, резекції кістки при пухлинній патології</p>
+                        </td>
+                        <td class="time">
+                            <p>14 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>1900</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Видалення пухлин кісток та суглобів, резекції кістки при пухлинній патології  |  14 днів  |  1900 грн">замовити</button>
+                        </td>
+                    </tr>
+
+                    <tr class="analyses title">
+                        <td class="name">
+                            <p>C - Патологія шлунково-кишкового тракту</p>
+                        </td>
+                        <td class="time">
+                            <p>0</p>
+                        </td>
+                        <td class="price">
+                            <p>0</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="C - Патологія шлунково-кишкового тракту  |  0  |  0 грн">замовити</button>
+                        </td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Біопсії шлункового-кишкового тракту або резекція поліпу</p>
+                        </td>
+                        <td class="time">
+                            <p>5 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>700</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Біопсії шлункового-кишкового тракту або резекція поліпу  |  5 днів  |  700 грн">замовити</button>
+                        </td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Мультифокальна біопсія шлунково-кишкового тракту (до 5 біоптатів включно, одна
+                                локалізація)</p>
+                        </td>
+                        <td class="time">
+                            <p>5 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>850</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Мультифокальна біопсія шлунково-кишкового тракту (до 5 біоптатів включно, одна локалізація)  |  5 днів  |  850 грн">замовити</button>
+                        </td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Поліпектомії поліпів ШКТ розмірами до 15 мм кожний (до 5 утворень включно, одна
+                                локалізація)</p>
+                        </td>
+                        <td class="time">
+                            <p>5 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>1000</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Поліпектомії поліпів ШКТ розмірами до 15 мм кожний (до 5 утворень включно, одна локалізація)  |  5 днів  |  1000 грн">замовити</button>
+                        </td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Біопсії шлунка з оцінкою за Сіднейською системою, системами OLGA та OLGIM</p>
+                        </td>
+                        <td class="time">
+                            <p>7 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>1160</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Біопсії шлунка з оцінкою за Сіднейською системою, системами OLGA та OLGIM  |  7 днів  |  1160 грн">замовити</button>
+                        </td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Апендикс та дивертикули ШКТ при запальних захворюваннях</p>
+                        </td>
+                        <td class="time">
+                            <p>5 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>700</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Апендикс та дивертикули ШКТ при запальних захворюваннях  |  5 днів  |  700 грн">замовити</button>
+                        </td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Жовчний міхур при запальних захворюваннях</p>
+                        </td>
+                        <td class="time">
+                            <p>5 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>700</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Жовчний міхур при запальних захворюваннях  |  5 днів  |  700 грн">замовити</button>
+                        </td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Гемороїдальні вузли та анальні тріщини</p>
+                        </td>
+                        <td class="time">
+                            <p>5 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>700</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Гемороїдальні вузли та анальні тріщини  |  5 днів  |  700 грн">замовити</button>
+                        </td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Килеві мішки</p>
+                        </td>
+                        <td class="time">
+                            <p>5 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>600</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Килеві мішки  |  5 днів  |  600 грн">замовити</button></td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Куприкові кісти та норицеві ходи</p>
+                        </td>
+                        <td class="time">
+                            <p>5 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>700</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Куприкові кісти та норицеві ходи  |  5 днів  |  700 грн">замовити</button>
+                        </td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Апендикс при пухлинних захворюваннях</p>
+                        </td>
+                        <td class="time">
+                            <p>5 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>1050</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Апендикс при пухлинних захворюваннях  |  5 днів  |  1050 грн">замовити</button>
+                        </td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Матеріал гастректомії, субтотальної резекції шлунка (включно з дослідженням
+                                лімфатичних вузлів)</p>
+                        </td>
+                        <td class="time">
+                            <p>7 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>3400</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Матеріал гастректомії, субтотальної резекції шлунка (включно з дослідженням лімфатичних вузлів)  |  7 днів  |  3400 грн">замовити</button>
+                        </td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Матеріал резекції стравоходу (включно з дослідженням лімфатичних вузлів)</p>
+                        </td>
+                        <td class="time">
+                            <p>7 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>3400</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Матеріал резекції стравоходу (включно з дослідженням лімфатичних вузлів)  |  7 днів  |  3400 грн">замовити</button>
+                        </td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Матеріал пухлин при ендоскопічній резекції слизової та підслизовій диссекції ШКТ
+                            </p>
+                        </td>
+                        <td class="time">
+                            <p>5 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>1500</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Матеріал пухлин при ендоскопічній резекції слизової та підслизовій диссекції ШКТ  |  5 днів  |  1500 грн">замовити</button>
+                        </td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Матеріал геміколектомії, екстирпації прямої кишки та інших резекція кишківника
+                                при пухлинних процесах</p>
+                        </td>
+                        <td class="time">
+                            <p>7 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>3150</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Матеріал геміколектомії, екстирпації прямої кишки та інших резекція кишківника при пухлинних процесах  |  7 днів  |  3150 грн">замовити</button>
+                        </td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Матеріал резекції кишківника при захворюваннях запального та судинного генезу</p>
+                        </td>
+                        <td class="time">
+                            <p>7 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>1900</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Матеріал резекції кишківника при захворюваннях запального та судинного генезу  |  7 днів  |  1900 грн">замовити</button>
+                        </td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Визначення статусу мікросателітної нестабільності (MSI)</p>
+                        </td>
+                        <td class="time">
+                            <p>7 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>3150</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Визначення статусу мікросателітної нестабільності (MSI)  |  7 днів  |  3150 грн">замовити</button>
+                        </td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Верифікація раку шлунку</p>
+                        </td>
+                        <td class="time">
+                            <p>7 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>3150</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Верифікація раку шлунку  |  7 днів  |  3150 грн">замовити</button></td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Верифікація нейроендокринної карциноми</p>
+                        </td>
+                        <td class="time">
+                            <p>7 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>3750</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Верифікація нейроендокринної карциноми  |  7 днів  |  3750 грн">замовити</button>
+                        </td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Визначення перианальних кондилом високого ризику (HPV general, Ki-67, p16)</p>
+                        </td>
+                        <td class="time">
+                            <p>7 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>2250</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Визначення перианальних кондилом високого ризику (HPV general, Ki-67, p16)  |  7 днів  |  2250 грн">замовити</button>
+                        </td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Ідентифікація H.pylori (Giemsa HP Kit)</p>
+                        </td>
+                        <td class="time">
+                            <p>5 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>600</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Ідентифікація H.pylori (Giemsa HP Kit)  |  5 днів  |  600 грн">замовити</button>
+                        </td>
+                    </tr>
+
+                    <tr class="analyses title">
+                        <td class="name">
+                            <p>D - Патологія легень та нижніх дихальних шляхів</p>
+                        </td>
+                        <td class="time">
+                            <p>0</p>
+                        </td>
+                        <td class="price">
+                            <p>0</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="D - Патологія легень та нижніх дихальних шляхів  |  0  |  0 грн">замовити</button>
+                        </td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Біопсії бронхів, легень (за одну локалізацію)</p>
+                        </td>
+                        <td class="time">
+                            <p>5 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>850</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Біопсії бронхів, легень (за одну локалізацію)  |  5 днів  |  850 грн">замовити</button>
+                        </td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Біопсії плеври</p>
+                        </td>
+                        <td class="time">
+                            <p>5 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>850</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Біопсії плеври  |  5 днів  |  850 грн">замовити</button></td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Лобектомії і пульмонектомії</p>
+                        </td>
+                        <td class="time">
+                            <p>5 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>1900</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Лобектомії і пульмонектомії  |  5 днів  |  1900 грн">замовити</button>
+                        </td>
+                    </tr>
+
+                    <tr class="analyses title">
+                        <td class="name">
+                            <p>E - Ендокринна патологія</p>
+                        </td>
+                        <td class="time">
+                            <p>0</p>
+                        </td>
+                        <td class="price">
+                            <p>0</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="E - Ендокринна патологія  |  0  |  0 грн">замовити</button></td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Біопсії наднирника (з одного боку)</p>
+                        </td>
+                        <td class="time">
+                            <p>5 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>850</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Біопсії наднирника (з одного боку)  |  5 днів  |  850 грн">замовити</button>
+                        </td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Адреналектомії</p>
+                        </td>
+                        <td class="time">
+                            <p>7 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>1200</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Адреналектомії  |  7 днів  |  1200 грн">замовити</button></td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Резекція щитоподібної залози</p>
+                        </td>
+                        <td class="time">
+                            <p>5 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>1050</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Резекція щитоподібної залози  |  5 днів  |  1050 грн">замовити</button>
+                        </td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Тиреоїдектомії</p>
+                        </td>
+                        <td class="time">
+                            <p>7 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>1500</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Тиреоїдектомії  |  7 днів  |  1500 грн">замовити</button></td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Спленектомії</p>
+                        </td>
+                        <td class="time">
+                            <p>5 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>1200</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Спленектомії  |  5 днів  |  1200 грн">замовити</button></td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Трепан-біопсії кісткового мозку (включаючи необхідні гістохімічні забарвлення )
+                            </p>
+                        </td>
+                        <td class="time">
+                            <p>7 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>1200</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Трепан-біопсії кісткового мозку (включаючи необхідні гістохімічні забарвлення )  |  7 днів  |  1200 грн">замовити</button>
+                        </td>
+                    </tr>
+
+                    <tr class="analyses title">
+                        <td class="name">
+                            <p>F - Інша патологія</p>
+                        </td>
+                        <td class="time">
+                            <p>0</p>
+                        </td>
+                        <td class="price">
+                            <p>0</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="F - Інша патологія  |  0  |  0 грн">замовити</button></td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Біопсії утворень черевної порожнини і позаочеревинного простору</p>
+                        </td>
+                        <td class="time">
+                            <p>5 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>850</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Біопсії утворень черевної порожнини і позаочеревинного простору  |  5 днів  |  850 грн">замовити</button>
+                        </td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Видалення судин</p>
+                        </td>
+                        <td class="time">
+                            <p>5 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>650</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Видалення судин  |  5 днів  |  650 грн">замовити</button></td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Біопсії пухлинних утворень м’яких тканин</p>
+                        </td>
+                        <td class="time">
+                            <p>5 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>700</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Біопсії пухлинних утворень м’яких тканин  |  5 днів  |  700 грн">замовити</button>
+                        </td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Матеріал при видаленні ліпом</p>
+                        </td>
+                        <td class="time">
+                            <p>5 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>700</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Матеріал при видаленні ліпом  |  5 днів  |  700 грн">замовити</button>
+                        </td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Трепан-біопсії лімфатичних вузлів (одна локалізація)</p>
+                        </td>
+                        <td class="time">
+                            <p>5 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>850</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Трепан-біопсії лімфатичних вузлів (одна локалізація)  |  5 днів  |  850 грн">замовити</button>
+                        </td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Матеріал при видаленні нігтьових лож</p>
+                        </td>
+                        <td class="time">
+                            <p>5 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>700</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Матеріал при видаленні нігтьових лож  |  5 днів  |  700 грн">замовити</button>
+                        </td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Видалення сльозових залоз</p>
+                        </td>
+                        <td class="time">
+                            <p>5 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>850</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Видалення сльозових залоз  |  5 днів  |  850 грн">замовити</button></td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Трепан-біопсії середостіння</p>
+                        </td>
+                        <td class="time">
+                            <p>5 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>850</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Трепан-біопсії середостіння  |  5 днів  |  850 грн">замовити</button>
+                        </td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Видалення пухлин середостіння</p>
+                        </td>
+                        <td class="time">
+                            <p>5 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>1200</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Видалення пухлин середостіння  |  5 днів  |  1200 грн">замовити</button>
+                        </td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Консультація лікаря-патолога</p>
+                        </td>
+                        <td class="time">
+                            <p>1 день</p>
+                        </td>
+                        <td class="price">
+                            <p>900</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Консультація лікаря-патолога  |  1 день  |  900 грн">замовити</button>
+                        </td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Консультація лікаря-патолога, к.мед.н.</p>
+                        </td>
+                        <td class="time">
+                            <p>1 день</p>
+                        </td>
+                        <td class="price">
+                            <p>1000</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Консультація лікаря-патолога, к.мед.н.  |  1 день  |  1000 грн">замовити</button>
+                        </td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Консультація лікаря-патолога, д.мед.н., професора</p>
+                        </td>
+                        <td class="time">
+                            <p>1 день</p>
+                        </td>
+                        <td class="price">
+                            <p>1150</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Консультація лікаря-патолога, д.мед.н., професора  |  1 день  |  1150 грн">замовити</button>
+                        </td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Видалення матки без придатків</p>
+                        </td>
+                        <td class="time">
+                            <p>10 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>900</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Видалення матки без придатків  |  10 днів  |  900 грн">замовити</button>
+                        </td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Біопсія яєчка</p>
+                        </td>
+                        <td class="time">
+                            <p>10 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>1000</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Біопсія яєчка  |  10 днів  |  1000 грн">замовити</button></td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Видалення пухлин м’яких тканин, окрім ліпом</p>
+                        </td>
+                        <td class="time">
+                            <p>10 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>900</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Видалення пухлин м’яких тканин, окрім ліпом  |  10 днів  |  900 грн">замовити</button>
+                        </td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Інші патоморфологічні дослідження II категорії складності</p>
+                        </td>
+                        <td class="time">
+                            <p>7 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>650</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Інші патоморфологічні дослідження II категорії складності  |  7 днів  |  650 грн">замовити</button>
+                        </td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Інші патоморфологічні дослідження III категорії складності</p>
+                        </td>
+                        <td class="time">
+                            <p>7 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>850</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Інші патоморфологічні дослідження III категорії складності  |  7 днів  |  850 грн">замовити</button>
+                        </td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Інші патоморфологічні дослідження IV категорії складності</p>
+                        </td>
+                        <td class="time">
+                            <p>10 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>1000</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Інші патоморфологічні дослідження IV категорії складності  |  10 днів  |  1000 грн">замовити</button>
+                        </td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Інші патоморфологічні дослідження V категорії складності</p>
+                        </td>
+                        <td class="time">
+                            <p>10 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>2500</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Інші патоморфологічні дослідження V категорії складності  |  10 днів  |  2500 грн">замовити</button>
+                        </td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Лімфодисекція</p>
+                        </td>
+                        <td class="time">
+                            <p>10 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>650</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Лімфодисекція  |  10 днів  |  650 грн">замовити</button></td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>OnсoRisk - Лабораторні дослідження спадкової схильності до розвитку онкологічних
+                                захворювань (37 генів NGS)</p>
+                        </td>
+                        <td class="time">
+                            <p>20 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>13200</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="OnсoRisk - Лабораторні дослідження спадкової схильності до розвитку онкологічних захворювань (37 генів NGS)  |  20 днів  |  13200 грн">замовити</button>
+                        </td>
+                    </tr>
+
+                    <tr class="analyses title">
+                        <td class="name">
+                            <p>G - Гінекологічна патологія та репродуктологія</p>
+                        </td>
+                        <td class="time">
+                            <p>-</p>
+                        </td>
+                        <td class="price">
+                            <p>0</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="G - Гінекологічна патологія та репродуктологія  |  -  |  0 грн">замовити</button>
+                        </td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Біопсії шийки матки (за виключенням конізації)</p>
+                        </td>
+                        <td class="time">
+                            <p>5 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>700</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Біопсії шийки матки (за виключенням конізації)  |  5 днів  |  700 грн">замовити</button>
+                        </td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Біопсії стінки піхви</p>
+                        </td>
+                        <td class="time">
+                            <p>5 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>700</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Біопсії стінки піхви  |  5 днів  |  700 грн">замовити</button></td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Матеріал зі стінок порожнини матки (пайпель-біопсія, вишкрібання чи
+                                гістероскопії)</p>
+                        </td>
+                        <td class="time">
+                            <p>5 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>700</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Матеріал зі стінок порожнини матки (пайпель-біопсія, вишкрібання чи гістероскопії)  |  5 днів  |  700 грн">замовити</button>
+                        </td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Матеріал з цервікального каналу</p>
+                        </td>
+                        <td class="time">
+                            <p>5 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>650</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Матеріал з цервікального каналу  |  5 днів  |  650 грн">замовити</button>
+                        </td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Матеріал при роздільному діагностичному вишкрібанні чи гістероскопії (порожнина
+                                матки+цервікальний канал)</p>
+                        </td>
+                        <td class="time">
+                            <p>5 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>900</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Матеріал при роздільному діагностичному вишкрібанні чи гістероскопії (порожнина матки+цервікальний канал)  |  5 днів  |  900 грн">замовити</button>
+                        </td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Матеріал при видаленні кіст бартолінової залози</p>
+                        </td>
+                        <td class="time">
+                            <p>5 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>700</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Матеріал при видаленні кіст бартолінової залози  |  5 днів  |  700 грн">замовити</button>
+                        </td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Доброякісні епітеліальні новоутворення вульви (папіломи, кондиломи)</p>
+                        </td>
+                        <td class="time">
+                            <p>5 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>700</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Доброякісні епітеліальні новоутворення вульви (папіломи, кондиломи)  |  5 днів  |  700 грн">замовити</button>
+                        </td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Дослідження матеріалу при абортах (до 12 тижнів)</p>
+                        </td>
+                        <td class="time">
+                            <p>5 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>850</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Дослідження матеріалу при абортах (до 12 тижнів)  |  5 днів  |  850 грн">замовити</button>
+                        </td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Матеріал при ексцизії та конізації шийки матки</p>
+                        </td>
+                        <td class="time">
+                            <p>5 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>850</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Матеріал при ексцизії та конізації шийки матки  |  5 днів  |  850 грн">замовити</button>
+                        </td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Дослідження плаценти</p>
+                        </td>
+                        <td class="time">
+                            <p>7 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>1050</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Дослідження плаценти  |  7 днів  |  1050 грн">замовити</button></td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Матеріал при ампутації/екстирпації матки з додатками (непухлинні процеси,
+                                доброякісні пухлини)</p>
+                        </td>
+                        <td class="time">
+                            <p>5 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>1700</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Матеріал при ампутації/екстирпації матки з додатками (непухлинні процеси, доброякісні пухлини)  |  5 днів  |  1700 грн">замовити</button>
+                        </td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Матеріал при екстирпації матки з додатками (злоякісні пухлини) включно з
+                                розширеною лімфодиссекцією</p>
+                        </td>
+                        <td class="time">
+                            <p>7 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>2500</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Матеріал при екстирпації матки з додатками  (злоякісні пухлини) включно з розширеною лімфодиссекцією  |  7 днів  |  2500 грн">замовити</button>
+                        </td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Матеріал при односторонній тубектомії</p>
+                        </td>
+                        <td class="time">
+                            <p>5 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>700</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Матеріал при односторонній тубектомії  |  5 днів  |  700 грн">замовити</button>
+                        </td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Матеріал при двосторонній тубектомії</p>
+                        </td>
+                        <td class="time">
+                            <p>5 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>1000</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Матеріал при двосторонній тубектомії  |  5 днів  |  1000 грн">замовити</button>
+                        </td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Матеріал при односторонній резекції яєчника (непухлинні процеси, доброякісні
+                                пухлини)</p>
+                        </td>
+                        <td class="time">
+                            <p>5 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>850</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Матеріал при односторонній  резекції яєчника (непухлинні процеси, доброякісні пухлини)  |  5 днів  |  850 грн">замовити</button>
+                        </td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Матеріал при двосторонній резекції яєчника (непухлинні процеси, доброякісні
+                                пухлини)</p>
+                        </td>
+                        <td class="time">
+                            <p>5 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>1100</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Матеріал при двосторонній  резекції яєчника (непухлинні процеси, доброякісні пухлини)  |  5 днів  |  1100 грн">замовити</button>
+                        </td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Матеріал при видаленні яєчника з приводу злоякісного новоутворення</p>
+                        </td>
+                        <td class="time">
+                            <p>7 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>1350</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Матеріал при видаленні яєчника з приводу злоякісного новоутворення  |  7 днів  |  1350 грн">замовити</button>
+                        </td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Біопсія сальника, очеревини</p>
+                        </td>
+                        <td class="time">
+                            <p>5 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>600</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Біопсія сальника, очеревини  |  5 днів  |  600 грн">замовити</button>
+                        </td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Матеріал при консервативній міомектомії</p>
+                        </td>
+                        <td class="time">
+                            <p>5 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>700</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Матеріал при консервативній міомектомії  |  5 днів  |  700 грн">замовити</button>
+                        </td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Матеріал видаленого плідного яйця при позаматковій вагітності</p>
+                        </td>
+                        <td class="time">
+                            <p>5 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>700</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Матеріал видаленого плідного яйця при позаматковій вагітності  |  5 днів  |  700 грн">замовити</button>
+                        </td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Трахелектомії і видалення кукси шийки матки</p>
+                        </td>
+                        <td class="time">
+                            <p>7 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>900</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Трахелектомії і видалення кукси шийки матки  |  7 днів  |  900 грн">замовити</button>
+                        </td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Матеріал при тотальній вульвектомії (включно з дослідженням лімфатичних вузлів)
+                            </p>
+                        </td>
+                        <td class="time">
+                            <p>7 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>2150</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Матеріал при тотальній вульвектомії (включно з дослідженням лімфатичних вузлів)  |  7 днів  |  2150 грн">замовити</button>
+                        </td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Верифікація HSIL (Ki-67, p16)</p>
+                        </td>
+                        <td class="time">
+                            <p>5 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>1900</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Верифікація HSIL (Ki-67, p16)  |  5 днів  |  1900 грн">замовити</button>
+                        </td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Визначення онкогенного ризику HPV-інфекції (HPV general, Ki-67, p16)</p>
+                        </td>
+                        <td class="time">
+                            <p>5 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>2200</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Визначення онкогенного ризику HPV-інфекції (HPV general, Ki-67, p16)  |  5 днів  |  2200 грн">замовити</button>
+                        </td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Верифікація міхурцевого занеску (Ki-67, p57)</p>
+                        </td>
+                        <td class="time">
+                            <p>5 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>1900</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Верифікація міхурцевого занеску (Ki-67, p57)  |  5 днів  |  1900 грн">замовити</button>
+                        </td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Визначення експресії рецепторів стероїдних гормонів ендометрію (Er, Pr)</p>
+                        </td>
+                        <td class="time">
+                            <p>5 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>1900</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Визначення експресії рецепторів стероїдних гормонів ендометрію (Er, Pr)  |  5 днів  |  1900 грн">замовити</button>
+                        </td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Діагностика хронічного ендометриту (CD138)</p>
+                        </td>
+                        <td class="time">
+                            <p>5 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>850</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Діагностика хронічного ендометриту (CD138)  |  5 днів  |  850 грн">замовити</button>
+                        </td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Визначення експресії CD138, CD56, BCL-6 в ендометрії</p>
+                        </td>
+                        <td class="time">
+                            <p>5 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>2200</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Визначення експресії CD138, CD56, BCL-6 в ендометрії  |  5 днів  |  2200 грн">замовити</button>
+                        </td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Діагностика хронічного ендометриту та визначенням кількості NK-клітин (CD138,
+                                CD56)</p>
+                        </td>
+                        <td class="time">
+                            <p>5 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>1900</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Діагностика хронічного ендометриту та визначенням кількості NK-клітин (CD138, CD56)  |  5 днів  |  1900 грн">замовити</button>
+                        </td>
+                    </tr>
+
+                    <tr class="analyses title">
+                        <td class="name">
+                            <p>H - Патологія голови та шиї</p>
+                        </td>
+                        <td class="time">
+                            <p>0</p>
+                        </td>
+                        <td class="price">
+                            <p>0</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="H - Патологія голови та шиї  |  0  |  0 грн">замовити</button></td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Біопсії слизових оболонок ротової порожнини, порожнини та пазух носа</p>
+                        </td>
+                        <td class="time">
+                            <p>5 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>700</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Біопсії слизових оболонок ротової порожнини, порожнини та пазух носа  |  5 днів  |  700 грн">замовити</button>
+                        </td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Матеріал при видаленні поліпів та кіст порожнини носа та пазух</p>
+                        </td>
+                        <td class="time">
+                            <p>5 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>700</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Матеріал при видаленні поліпів та кіст порожнини носа та пазух  |  5 днів  |  700 грн">замовити</button>
+                        </td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Біопсії гортані</p>
+                        </td>
+                        <td class="time">
+                            <p>5 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>850</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Біопсії гортані  |  5 днів  |  850 грн">замовити</button></td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Біопсії утворень повік, кон’юнктиви і сльозових залоз</p>
+                        </td>
+                        <td class="time">
+                            <p>5 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>700</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Біопсії утворень повік, кон’юнктиви і сльозових залоз  |  5 днів  |  700 грн">замовити</button>
+                        </td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Матеріал септопластики при необхідності проведення декальцитації</p>
+                        </td>
+                        <td class="time">
+                            <p>14 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>850</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Матеріал септопластики при необхідності проведення декальцитації  |  14 днів  |  850 грн">замовити</button>
+                        </td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Біопсії мигдалика (з одного боку)</p>
+                        </td>
+                        <td class="time">
+                            <p>5 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>700</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Біопсії мигдалика (з одного боку)  |  5 днів  |  700 грн">замовити</button>
+                        </td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Матеріал при тонзилектоміях</p>
+                        </td>
+                        <td class="time">
+                            <p>5 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>850</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Матеріал при тонзилектоміях  |  5 днів  |  850 грн">замовити</button>
+                        </td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Біопсії слинної залози (з одного боку)</p>
+                        </td>
+                        <td class="time">
+                            <p>5 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>700</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Біопсії слинної залози (з одного боку)  |  5 днів  |  700 грн">замовити</button>
+                        </td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Матеріал при пухлинах слинних залоз</p>
+                        </td>
+                        <td class="time">
+                            <p>5 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>850</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Матеріал при пухлинах слинних залоз  |  5 днів  |  850 грн">замовити</button>
+                        </td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Матеріал при видаленні епулідів, одонтогенних кіст, травматичних фібром слизової
+                                оболонки</p>
+                        </td>
+                        <td class="time">
+                            <p>5 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>700</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Матеріал при видаленні епулідів, одонтогенних кіст, травматичних фібром слизової оболонки  |  5 днів  |  700 грн">замовити</button>
+                        </td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Матеріал при видаленні кіст шиї</p>
+                        </td>
+                        <td class="time">
+                            <p>5 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>850</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Матеріал при видаленні кіст шиї  |  5 днів  |  850 грн">замовити</button>
+                        </td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Видалення одонтогенних пухлин, пухлин кісток черепа (декальцинація)</p>
+                        </td>
+                        <td class="time">
+                            <p>14</p>
+                        </td>
+                        <td class="price">
+                            <p>1200</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Видалення одонтогенних пухлин, пухлин кісток черепа (декальцинація)  |  14  |  1200 грн">замовити</button>
+                        </td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Видалення пухлин ротової та носової порожнини</p>
+                        </td>
+                        <td class="time">
+                            <p>5 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>1200</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Видалення пухлин ротової та носової порожнини  |  5 днів  |  1200 грн">замовити</button>
+                        </td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Тотальна ларингектомія та резекції гортані</p>
+                        </td>
+                        <td class="time">
+                            <p>7 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>1900</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Тотальна ларингектомія та резекції гортані  |  7 днів  |  1900 грн">замовити</button>
+                        </td>
+                    </tr>
+
+                    <tr class="analyses title">
+                        <td class="name">
+                            <p>I - Інші гісто- та імуногістохімічні дослідження</p>
+                        </td>
+                        <td class="time">
+                            <p>0</p>
+                        </td>
+                        <td class="price">
+                            <p>0</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="I - Інші гісто- та імуногістохімічні дослідження  |  0  |  0 грн">замовити</button>
+                        </td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Гістохімічне дослідження з використанням однієї методики</p>
+                        </td>
+                        <td class="time">
+                            <p>5 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>500</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Гістохімічне дослідження з використанням однієї методики  |  5 днів  |  500 грн">замовити</button>
+                        </td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Імуногістохімічне дослідження, панель 1.16.</p>
+                        </td>
+                        <td class="time">
+                            <p>до 10 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>7250</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Імуногістохімічне дослідження, панель 1.16.  |  до 10 днів  |  7250 грн">замовити</button>
+                        </td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Імуногістохімічне дослідження, панель 1.1.</p>
+                        </td>
+                        <td class="time">
+                            <p>до 10 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>750</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Імуногістохімічне дослідження, панель 1.1.  |  до 10 днів  |  750 грн">замовити</button>
+                        </td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Імуногістохімічне дослідження, панель 1.2.</p>
+                        </td>
+                        <td class="time">
+                            <p>до 10 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>1650</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Імуногістохімічне дослідження, панель 1.2.  |  до 10 днів  |  1650 грн">замовити</button>
+                        </td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Імуногістохімічне дослідження, панель 1.3.</p>
+                        </td>
+                        <td class="time">
+                            <p>до 10 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>2150</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Імуногістохімічне дослідження, панель 1.3.  |  до 10 днів  |  2150 грн">замовити</button>
+                        </td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Імуногістохімічне дослідження, панель 1.4.</p>
+                        </td>
+                        <td class="time">
+                            <p>до 10 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>2500</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Імуногістохімічне дослідження, панель 1.4.  |  до 10 днів  |  2500 грн">замовити</button>
+                        </td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Імуногістохімічне дослідження, панель 1.6.</p>
+                        </td>
+                        <td class="time">
+                            <p>10 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>3400</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Імуногістохімічне дослідження, панель 1.6.  |  10 днів  |  3400 грн">замовити</button>
+                        </td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Імуногістохімічне дослідження, панель 1.8.</p>
+                        </td>
+                        <td class="time">
+                            <p>до 10 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>4400</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Імуногістохімічне дослідження, панель 1.8.  |  до 10 днів  |  4400 грн">замовити</button>
+                        </td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Імуногістохімічне дослідження, панель 1.10.</p>
+                        </td>
+                        <td class="time">
+                            <p>до 10 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>5000</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Імуногістохімічне дослідження, панель 1.10.  |  до 10 днів  |  5000 грн">замовити</button>
+                        </td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Імуногістохімічне дослідження, панель 1.12.</p>
+                        </td>
+                        <td class="time">
+                            <p>до 10 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>6000</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Імуногістохімічне дослідження, панель 1.12.  |  до 10 днів  |  6000 грн">замовити</button>
+                        </td>
+                    </tr>
+
+                    <tr class="analyses title">
+                        <td class="name">
+                            <p>L - Патологія печінки, жовчовивідних шляхів та підшлункової залози</p>
+                        </td>
+                        <td class="time">
+                            <p>0</p>
+                        </td>
+                        <td class="price">
+                            <p>0</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="L - Патологія печінки, жовчовивідних шляхів та підшлункової залози  |  0  |  0 грн">замовити</button>
+                        </td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Біопсії підшлункової залози</p>
+                        </td>
+                        <td class="time">
+                            <p>5 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>850</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Біопсії підшлункової залози  |  5 днів  |  850 грн">замовити</button>
+                        </td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Видалення жовчного міхура при запальних захворюваннях</p>
+                        </td>
+                        <td class="time">
+                            <p>5 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>700</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Видалення жовчного міхура при запальних захворюваннях  |  5 днів  |  700 грн">замовити</button>
+                        </td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Видалення жовчного міхура при пухлинних процесах</p>
+                        </td>
+                        <td class="time">
+                            <p>7 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>1200</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Видалення жовчного міхура при пухлинних процесах  |  7 днів  |  1200 грн">замовити</button>
+                        </td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Видалення підшлункової залози (субтотальної і радикальної резекції)</p>
+                        </td>
+                        <td class="time">
+                            <p>7 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>1900</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Видалення підшлункової залози (субтотальної і радикальної резекції)  |  7 днів  |  1900 грн">замовити</button>
+                        </td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Резекції печінки та гемігепатектомії</p>
+                        </td>
+                        <td class="time">
+                            <p>7 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>2150</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Резекції печінки та гемігепатектомії  |  7 днів  |  2150 грн">замовити</button>
+                        </td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Біопсії печінки</p>
+                        </td>
+                        <td class="time">
+                            <p>5 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>850</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Біопсії печінки  |  5 днів  |  850 грн">замовити</button></td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Панкреато-дуоденальної резекції</p>
+                        </td>
+                        <td class="time">
+                            <p>7 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>2150</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Панкреато-дуоденальної резекції  |  7 днів  |  2150 грн">замовити</button>
+                        </td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Визначення первинної пухлини при метастазах у печінку</p>
+                        </td>
+                        <td class="time">
+                            <p>7 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>5150</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Визначення первинної пухлини при метастазах у печінку  |  7 днів  |  5150 грн">замовити</button>
+                        </td>
+                    </tr>
+
+                    <tr class="analyses title">
+                        <td class="name">
+                            <p>M - Патологія грудної залози</p>
+                        </td>
+                        <td class="time">
+                            <p>0</p>
+                        </td>
+                        <td class="price">
+                            <p>0</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="M - Патологія грудної залози  |  0  |  0 грн">замовити</button></td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Трепан-біопсії грудної залози (з одного боку)</p>
+                        </td>
+                        <td class="time">
+                            <p>5 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>900</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Трепан-біопсії грудної залози (з одного боку)  |  5 днів  |  900 грн">замовити</button>
+                        </td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Матеріал при резекції грудної залози при гінекомастії, маститах</p>
+                        </td>
+                        <td class="time">
+                            <p>5 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>850</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Матеріал при резекції грудної залози при гінекомастії, маститах  |  5 днів  |  850 грн">замовити</button>
+                        </td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Секторальної резекції, лампектомії грудної залози</p>
+                        </td>
+                        <td class="time">
+                            <p>5 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>1200</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Секторальної резекції, лампектомії грудної залози  |  5 днів  |  1200 грн">замовити</button>
+                        </td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Радикальні резекції грудної залози і мастектомії (з одного боку)</p>
+                        </td>
+                        <td class="time">
+                            <p>7 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>1900</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Радикальні резекції грудної залози і мастектомії (з одного боку)  |  7 днів  |  1900 грн">замовити</button>
+                        </td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Радикальні резекції грудної залози і мастектомії (з одного боку) з
+                                лімфодиссекціями</p>
+                        </td>
+                        <td class="time">
+                            <p>7 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>2150</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Радикальні резекції грудної залози і мастектомії (з одного боку) з лімфодиссекціями  |  7 днів  |  2150 грн">замовити</button>
+                        </td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Молекулярний тип раку грудної залози (ER, PR, HER2, Ki-67)</p>
+                        </td>
+                        <td class="time">
+                            <p>5 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>2700</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Молекулярний тип раку грудної залози (ER, PR, HER2, Ki-67)  |  5 днів  |  2700 грн">замовити</button>
+                        </td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Визначення експресії андрогенових рецепторів</p>
+                        </td>
+                        <td class="time">
+                            <p>5 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>900</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Визначення експресії андрогенових рецепторів  |  5 днів  |  900 грн">замовити</button>
+                        </td>
+                    </tr>
+
+                    <tr class="analyses title">
+                        <td class="name">
+                            <p>N - Нейрохірургічна патологія</p>
+                        </td>
+                        <td class="time">
+                            <p>0</p>
+                        </td>
+                        <td class="price">
+                            <p>0</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="N - Нейрохірургічна патологія  |  0  |  0 грн">замовити</button></td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Біопсії головного і спинного мозку та їх оболонок</p>
+                        </td>
+                        <td class="time">
+                            <p>5 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>850</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Біопсії головного і спинного мозку та їх оболонок  |  5 днів  |  850 грн">замовити</button>
+                        </td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Видалення пухлин головного та спинного мозку та їх оболонок</p>
+                        </td>
+                        <td class="time">
+                            <p>5 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>1200</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Видалення пухлин головного та спинного мозку та їх оболонок  |  5 днів  |  1200 грн">замовити</button>
+                        </td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Ламінектомії</p>
+                        </td>
+                        <td class="time">
+                            <p>14 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>1200</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Ламінектомії  |  14 днів  |  1200 грн">замовити</button></td>
+                    </tr>
+
+                    <tr class="analyses title">
+                        <td class="name">
+                            <p>S - Дерматопатологія</p>
+                        </td>
+                        <td class="time">
+                            <p>0</p>
+                        </td>
+                        <td class="price">
+                            <p>0</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="S - Дерматопатологія  |  0  |  0 грн">замовити</button></td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Інцизійні, ексцизійні та радіохвильові біопсії шкіри при доброякісних пухлинних
+                                та пухлиноподібних процесах шкіри (1 зразок)</p>
+                        </td>
+                        <td class="time">
+                            <p>5 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>650</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Інцизійні, ексцизійні та радіохвильові біопсії шкіри при доброякісних пухлинних та пухлиноподібних процесах шкіри (1 зразок)  |  5 днів  |  650 грн">замовити</button>
+                        </td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Інцизійні, ексцизійні та радіохвильові біопсії шкіри при доброякісних пухлинних
+                                та пухлиноподібних процесах шкіри (до 3 зразків)</p>
+                        </td>
+                        <td class="time">
+                            <p>5 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>900</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Інцизійні, ексцизійні та радіохвильові біопсії шкіри при доброякісних пухлинних та пухлиноподібних процесах шкіри (до 3 зразків)  |  5 днів  |  900 грн">замовити</button>
+                        </td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Панч біопсії шкіри при доброякісних пухлинних та пухлиноподібних процесах шкіри
+                            </p>
+                        </td>
+                        <td class="time">
+                            <p>5 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>750</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Панч біопсії шкіри при доброякісних пухлинних та пухлиноподібних процесах шкіри  |  5 днів  |  750 грн">замовити</button>
+                        </td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Ексцизійні біопсії шкіри при злоякісних пухлинах немеланоцитарного походження</p>
+                        </td>
+                        <td class="time">
+                            <p>5 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>850</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Ексцизійні біопсії шкіри при злоякісних пухлинах немеланоцитарного походження  |  5 днів  |  850 грн">замовити</button>
+                        </td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Ексцизійні біопсії шкіри при злоякісних пухлинах меланоцитарного походження</p>
+                        </td>
+                        <td class="time">
+                            <p>7 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>1150</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Ексцизійні біопсії шкіри при злоякісних пухлинах меланоцитарного походження  |  7 днів  |  1150 грн">замовити</button>
+                        </td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Біопсії шкіри при бульозних дерматитах та аутоімунних захворюваннях шкіри</p>
+                        </td>
+                        <td class="time">
+                            <p>8 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>1900</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Біопсії шкіри при бульозних дерматитах та аутоімунних захворюваннях шкіри  |  8 днів  |  1900 грн">замовити</button>
+                        </td>
+                    </tr>
+
+                    <tr class="analyses title">
+                        <td class="name">
+                            <p>U - Урологічна та андрологічна патологія</p>
+                        </td>
+                        <td class="time">
+                            <p>0</p>
+                        </td>
+                        <td class="price">
+                            <p>0</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="U - Урологічна та андрологічна патологія  |  0  |  0 грн">замовити</button>
+                        </td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Біопсії сечоводу (з одного боку)</p>
+                        </td>
+                        <td class="time">
+                            <p>5 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>700</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Біопсії сечоводу (з одного боку)  |  5 днів  |  700 грн">замовити</button>
+                        </td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Біопсії сечового міхура</p>
+                        </td>
+                        <td class="time">
+                            <p>5 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>700</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Біопсії сечового міхура  |  5 днів  |  700 грн">замовити</button></td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Біопсії уретри</p>
+                        </td>
+                        <td class="time">
+                            <p>5 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>700</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Біопсії уретри  |  5 днів  |  700 грн">замовити</button></td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Видалення оболонок яєчка та кіст придатку яєчка</p>
+                        </td>
+                        <td class="time">
+                            <p>5 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>700</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Видалення оболонок яєчка та кіст придатку яєчка  |  5 днів  |  700 грн">замовити</button>
+                        </td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Поліфокальна трепан-біопсія передміхурової залози (до 6 біоптатів)</p>
+                        </td>
+                        <td class="time">
+                            <p>5 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>850</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Поліфокальна трепан-біопсія передміхурової залози (до 6 біоптатів)  |  5 днів  |  850 грн">замовити</button>
+                        </td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Поліфокальна трепан-біопсія передміхурової залози (до 12 біоптатів)</p>
+                        </td>
+                        <td class="time">
+                            <p>5 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>1200</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Поліфокальна трепан-біопсія передміхурової залози (до 12 біоптатів)  |  5 днів  |  1200 грн">замовити</button>
+                        </td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Циркумцизіо (видалення крайньої плоті)</p>
+                        </td>
+                        <td class="time">
+                            <p>5 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>700</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Циркумцизіо (видалення крайньої плоті)  |  5 днів  |  700 грн">замовити</button>
+                        </td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Видалення яєчка та придатків (з одного боку)</p>
+                        </td>
+                        <td class="time">
+                            <p>5 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>1200</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Видалення яєчка та придатків (з одного боку)  |  5 днів  |  1200 грн">замовити</button>
+                        </td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Резекції нирки</p>
+                        </td>
+                        <td class="time">
+                            <p>5 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>1050</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Резекції нирки  |  5 днів  |  1050 грн">замовити</button></td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Резекції сечового міхура</p>
+                        </td>
+                        <td class="time">
+                            <p>5 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>1050</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Резекції сечового міхура  |  5 днів  |  1050 грн">замовити</button></td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Трансуретральної резекції простати, сечового міхура</p>
+                        </td>
+                        <td class="time">
+                            <p>5 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>1050</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Трансуретральної резекції простати, сечового міхура  |  5 днів  |  1050 грн">замовити</button>
+                        </td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Простатектомія</p>
+                        </td>
+                        <td class="time">
+                            <p>5 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>1500</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Простатектомія  |  5 днів  |  1500 грн">замовити</button></td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Цистектомії</p>
+                        </td>
+                        <td class="time">
+                            <p>5 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>1900</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Цистектомії  |  5 днів  |  1900 грн">замовити</button></td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Нефректомії (в тому числі з адреналектомією)</p>
+                        </td>
+                        <td class="time">
+                            <p>5 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>1900</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Нефректомії (в тому числі з адреналектомією)  |  5 днів  |  1900 грн">замовити</button>
+                        </td>
+                    </tr>
+
+                    <tr class="analyses -">
+                        <td class="name">
+                            <p>Біопсії новоутворень нирки (з одного боку)</p>
+                        </td>
+                        <td class="time">
+                            <p>5 днів</p>
+                        </td>
+                        <td class="price">
+                            <p>850</p>
+                        </td>
+                        <td class="ordering-push"><button class="order-button" id="order-button"
+                                value="Біопсії новоутворень нирки (з одного боку)  |  5 днів  |  850 грн">замовити</button>
+                        </td>
+                    </tr>
+
+                </tbody>
+            </table>
+            <form action="sent_mail.php" method="post" class="analyse-order-form" id="full-form">
+                <input type="hidden" name="csrfmiddlewaretoken"
+                    value="o0zRQAdNw6MTK7i7WimJhYSc1QZxSyzxysG0M1GMOnryamaCueFJA6yLQNF3uJCX">
+                <div class="info-of-analyse" id="">
+                    <button id="close-button"><i class="fa-solid fa-xmark"></i></button>
+                    <br>
+                    <h3>ФОРМА ЗАМОВЛЕННЯ</h3>
+                    <p>Заповніть коротку анкету і натисніть «надіслати»<br>
+                        Оператор зв'яжеться з Вами найближчим часом для уточнення інформації.</p>
+                    <br>
+                    <input type="text" name="analyse-id" class="input-name" id="analyse_info_form" value="" readonly="">
+                    <br>
+                    <input type="text" name="customer-name" class="submit-btn input-name" placeholder="Ім'я"
+                        pattern="[А-Я, І, а-я, і, a-z, A-Z]{1,40}" required="">
+                    <br>
+                    <input type="text" value="+38" name="customer-email" class="submit-btn input-name"
+                        placeholder="Номер телефону" required="">
+                    <br>
+                    <button class="submit-btn input-name confirm-btn" id="send-request-submit">НАДІСЛАТИ
+                        ЗАЯВКУ</button>
+                </div>
+            </form>
+        </div>
+        <form action="sent_mail.php" method="post" class="analyse-order-form" id="full-form">
+            {% csrf_token %}
+            <div class="info-of-analyse" id="{{ el.id_number }}">
+                <button id="close-button"><i class="fa-solid fa-xmark"></i></button>
+                <br>
+                <h3>ФОРМА ЗАМОВЛЕННЯ</h3>
+                <p>Заповніть коротку анкету і натисніть «надіслати»<br>
+                    Оператор зв'яжеться з Вами найближчим часом для уточнення інформації.</p>
+                <br>
+                <input type="text" name="analyse-id" class="input-name" id="analyse_info_form" value="" readonly>
+                <br>
+                <input type="text" name="customer-name" class="submit-btn input-name" placeholder="Ім'я"
+                    pattern="[А-Я, І, а-я, і, a-z, A-Z]{1,40}" required>
+                <br>
+                <input type="text" value="+38" name="customer-email" class="submit-btn input-name"
+                    placeholder="Номер телефону" required>
+                <br>
+                <button class="submit-btn input-name confirm-btn" id="send-request-submit">НАДІСЛАТИ
+                    ЗАЯВКУ</button>
+            </div>
+        </form>
+    </main>
+    <!-- Main part of the site -->
+    <!-- Site footer -->
+    <footer class="footer">
+        <div class="upper-footer">
+            <div class="footer-col">
+                <div class="social-links">
+                    <li>
+                        <h4>Контакти: </h4>
+                    </li>
+                    <li class="social-networks">
+                        <a href="https://www.facebook.com/HistolabDialog"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/histolabdialog/" id="instagram-under"><i
+                                class="fa-brands fa-instagram"></i></a>
+                        <a href="tel:+380968996369" id="linked-in-under"><i class="fa-brands fa-linkedin"></i></a>
+                    </li>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <ul>
+                        <li><a href="news.html">Про нас</a></li>
+                        <li><a href="services.html">Наші послуги</a></li>
+                        <li><a href="corp_client.html">Корпоративним клієнтам</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col footer-adresses">
+                    <h4><i class="fa-regular fa-compass"></i></h4>
+                    <ul>
+                        <li><a href="contacts.html">Київ Констянтинівська, 73</a></li>
+                        <li><a href="contacts.html">(вхід з вулиці Кирилівська, 46)</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col phones-footer">
+                    <h4><i class="fa-solid fa-phone"></i></h4>
+                    <ul>
+                        <li><a href="tel:+380968996369">+38(096) 899 63 69</a></li>
+                        <li><a href="contacts.html"> Пн-Пт: 10:00-19:00 </a></li>
+                    </ul>
+                </div>
+                <div class="footer-col footer-email">
+                    <h4><i class="fa-regular fa-envelope"></i></h4>
+                    <ul class="footer-email-ul">
+                        <li><a href="mailto:info@histolab-dialog.com">info@histolab-dialog.com</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="upper-footer under-footer">
+            <div class="footer-col">
+                <div class="social-links">
+                    <div class="grid-container">
+                        <p class="cookeis-and-confidence">
+                            © Діалог 2022 - 2023 Всі права захищені | Цей сайт використовує політику Cookies.
+                            Дізнатися більше.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Site footer -->
+
+    <!-- Scripts -->
+    <script src="./js/main.js"></script>
+    <script src="./js/service.js"></script>
+</body>
+
+</html>

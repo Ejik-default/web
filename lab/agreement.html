@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Діалог - гістологічна лабораторія</title>
+    <link rel="icon" type="image/x-icon" href="./img/mainIcon.svg">
+    <meta name="keywords"
+        content="Histolab-Dialog, Histolab, Dialog, Histo dialog, Histodialog, Histo-dialog, Лаба Діалог, Лаба гісто діалог, Лаба гісто, Гістологічна лабораторія, Гістологічна лабораторія Діалог, Діалог, Діалог лабораторія, Діалог гістологія, Гістологічні дослідження, Гістологія лабораторія, Гістологія Діалог, Гістологічні дослідження, Гістологічні дослідження лабораторія, Гістологічні дослідження лабораторія Діалог, Патогістологічна лабораторія, Патогістологічна лабораторія Діалог, Діалог, Діалог лабораторія, Діалог патогістологія, Діалог пато гістологія, Патогістологічні дослідження, Патогістологія лабораторія, Патогістологія Діалог, Патогістологічні дослідження, Патогістологічні дослідження лабораторія, Патогістологічні дослідження лабораторія Діалог">
+    <meta name="description"
+        content="Ласкаво просимо на сторінку Гістолаб-Діалог, провідної гістологічної лабораторії. Ми надаємо широкий спектр послуг у галузі гістологічних досліджень та патогістології. Наша команда досвідчених фахівців забезпечує високоякісні аналізи проб, що допомагають у точній діагностиці та лікуванні різних захворювань. Звертайтесь до нас для отримання професійних консультацій та результатів досліджень.">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <script src="https://kit.fontawesome.com/d003f22ee1.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+    <!-- Site header -->
+    <header class="header">
+        <div class="navigation-stuff">
+            <div class="left">
+                <img src="./img/logoMain.svg" class="logo_img">
+                <div class="date-and-number" id="location">
+                    <span class="date">Пн-Пт: 10:00-19:00</span>
+                    <br>
+                    <span>+38(096) 899 63 69</span>
+                </div>
+            </div>
+            <div class="right">
+                <div class="date-and-number">
+                    <span>Київ, Констянтинівська 73</span>
+                    <br>
+                    <span id="min-text">(вхід з вул. Кирилівська 46)</span>
+                </div>
+                <a id="facebook"><i class="fa-brands fa-telegram"></i></a>
+                <a id="linkedin"><i class="fa-brands fa-viber"></i></a>
+                <a href="tel:+380968996369" id="linkedin"><i class="fa-solid fa-phone"></i></a>
+            </div>
+        </div>
+    </header>
+    <!-- Site header -->
+    <!-- Site navigation -->
+    <nav class="nav">
+        <div class="under-navigation">
+            <div class="dropdown" data-dropdown="">
+                <a href="contacts.html"><button class="link last" id="info-bar"
+                        data-dropdown-button="">КОНТАКТИ</button></a>
+            </div>
+            <div class="dropdown" data-dropdown="">
+                <a href="doctors.html"><button class="link" id="info-bar" data-dropdown-button="">ЛІКАРІ</button></a>
+            </div>
+            <div class="dropdown" data-dropdown="">
+                <a href="services.html"><button class="link" id="info-bar" data-dropdown-button="">НАШІ
+                        ПОСЛУГИ</button></a>
+            </div>
+            <div class="dropdown" data-dropdown="">
+                <a href="corp_client.html"><button class="link too-big-btn" id="info-bar"
+                        data-dropdown-button="">КОРПОРАТИВНИМ КЛІЄНТАМ</button></a>
+            </div>
+            <div class="dropdown" id="dropdown" data-dropdown="">
+                <a>
+                    <button class="link" id="info-bar" data-dropdown-button="">ПРО НАС <i class="fa-solid"></i>
+                    </button>
+                </a>
+                <div class="dropdown-content" id="dropdown-content" onmouseover="dropdown_color_changer_mouse_over()"
+                    onmouseout="dropdown_color_changer_mouse_out()">
+                    <div class="dropdown-content-link">
+                        <a href="news.html">Новини</a>
+                    </div>
+                    <div class="dropdown-content-link dropdown-content-link-last">
+                        <a href="agreement.html">Публічний договір</a>
+                    </div>
+                </div>
+            </div>
+            <div class="dropdown" data-dropdown="">
+                <a href="index.html">
+                    <button class="link" id="info-bar" data-dropdown-button="">ГОЛОВНА</button>
+                </a>
+            </div>
+        </div>
+        <div class="navbar-responsive-left">
+            <a href="https://www.facebook.com/HistolabDialog">
+                <i class="fa-brands fa-facebook"></i>
+            </a>
+            <a href="https://www.instagram.com/histolabdialog/" id="instagram-under">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="tel:+380968996369">
+                <i class="fa-solid fa-phone"></i>
+            </a>
+        </div>
+        <div class="dropdown" data-dropdown="">
+            <button class="link burger-btn" id="burger-knopka">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+        <ul class="szirovaja-otkladina" id="tayler-szirden">
+            <li><a href="contacts.html">КОНТАКТИ</a></li>
+            <li><a href="corp_client.html">КОРПОРАТИВНИМ КЛІЄНТАМ</a></li>
+            <li><a href="doctors.html">ЛІКАРІ</a></li>
+            <li><a href="services.html">НАШІ ПОСЛУГИ</a></li>
+            <li id="mobile-dropdown-1">
+                <a class="mobile-dropdown">
+                    <button onclick="mobile_dropdown_function()" class="dropdown-btn" id="dropdown-btn">ПРО НАС
+                        <i class="fa-solid fa-caret-down"></i>
+                    </button>
+                </a>
+            </li>
+            <div class="mobile-dropdown-content" id="mobile-dropdown-content">
+                <li class="dropdown-link"><a href="news.html">Новини</a></li>
+                <li class="dropdown-link"><a href="agreement.html">Публічний договір</a></li>
+            </div>
+            <li><a href="index.html">ГОЛОВНА</a></li>
+        </ul>
+    </nav>
+    <!-- Site navigation -->
+    <!-- Main part of the site -->
+    <main class="content_info">
+        <iframe
+            src="https://docs.google.com/document/d/e/2PACX-1vS3qBjG8te_K8VfxDsh91B0ZjO8fcAR-noVThklSd7mN3QNDDUKL0zub9U2BodagexUN0BGnwjs7Lwj/pub?embedded=true"></iframe>
+    </main>
+    <!-- Main part of the site -->
+    <!-- Site footer -->
+    <footer class="footer">
+        <div class="upper-footer">
+            <div class="footer-col">
+                <div class="social-links">
+                    <li>
+                        <h4>Контакти: </h4>
+                    </li>
+                    <li class="social-networks">
+                        <a href="https://www.facebook.com/HistolabDialog"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/histolabdialog/" id="instagram-under"><i
+                                class="fa-brands fa-instagram"></i></a>
+                        <a href="tel:+380968996369" id="linked-in-under"><i class="fa-brands fa-linkedin"></i></a>
+                    </li>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <ul>
+                        <li><a href="news.html">Про нас</a></li>
+                        <li><a href="services.html">Наші послуги</a></li>
+                        <li><a href="corp_client.html">Корпоративним клієнтам</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col footer-adresses">
+                    <h4><i class="fa-regular fa-compass"></i></h4>
+                    <ul>
+                        <li><a href="contacts.html">Київ Констянтинівська, 73</a></li>
+                        <li><a href="contacts.html">(вхід з вулиці Кирилівська, 46)</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col phones-footer">
+                    <h4><i class="fa-solid fa-phone"></i></h4>
+                    <ul>
+                        <li><a href="tel:+380968996369">+38(096) 899 63 69</a></li>
+                        <li><a href="contacts.html"> Пн-Пт: 10:00-19:00 </a></li>
+                    </ul>
+                </div>
+                <div class="footer-col footer-email">
+                    <h4><i class="fa-regular fa-envelope"></i></h4>
+                    <ul class="footer-email-ul">
+                        <li><a href="mailto:info@histolab-dialog.com">info@histolab-dialog.com</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="upper-footer under-footer">
+            <div class="footer-col">
+                <div class="social-links">
+                    <div class="grid-container">
+                        <p class="cookeis-and-confidence">
+                            © Діалог 2022 - 2023 Всі права захищені | Цей сайт використовує політику Cookies.
+                            Дізнатися більше.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Site footer -->
+
+    <!-- Scripts -->
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
